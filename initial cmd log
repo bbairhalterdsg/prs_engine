@@ -1,0 +1,259 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DEV-DKS0399674>cd /documents/personalization_engine/personalization
+The system cannot find the path specified.
+
+C:\Users\DEV-DKS0399674>cd \Documents\Personalization Engine\personalization
+The system cannot find the path specified.
+
+C:\Users\DEV-DKS0399674>cd C:
+C:\Users\DEV-DKS0399674
+
+C:\Users\DEV-DKS0399674>cd C:\
+
+C:\>express personalization
+
+   create : personalization
+   create : personalization/package.json
+   create : personalization/app.js
+   create : personalization/public
+   create : personalization/public/javascripts
+   create : personalization/public/images
+   create : personalization/public/stylesheets
+   create : personalization/public/stylesheets/style.css
+   create : personalization/routes
+   create : personalization/routes/index.js
+   create : personalization/routes/users.js
+   create : personalization/views
+   create : personalization/views/index.jade
+   create : personalization/views/layout.jade
+   create : personalization/views/error.jade
+   create : personalization/bin
+   create : personalization/bin/www
+
+   install dependencies:
+     > cd personalization && npm install
+
+   run the app:
+     > SET DEBUG=personalization:* & npm start
+
+
+C:\>cd \personalization && npm install
+npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install th
+e latest version of pug instead of jade
+npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer
+cookie-parser@1.4.3 node_modules\cookie-parser
+├── cookie-signature@1.0.6
+└── cookie@0.3.1
+
+debug@2.2.0 node_modules\debug
+└── ms@0.7.1
+
+serve-favicon@2.3.0 node_modules\serve-favicon
+├── parseurl@1.3.1
+├── fresh@0.3.0
+├── etag@1.7.0
+└── ms@0.7.1
+
+morgan@1.7.0 node_modules\morgan
+├── on-headers@1.0.1
+├── basic-auth@1.0.4
+├── depd@1.1.0
+└── on-finished@2.3.0 (ee-first@1.1.1)
+
+body-parser@1.15.2 node_modules\body-parser
+├── content-type@1.0.2
+├── bytes@2.4.0
+├── depd@1.1.0
+├── qs@6.2.0
+├── on-finished@2.3.0 (ee-first@1.1.1)
+├── raw-body@2.1.7 (unpipe@1.0.0)
+├── http-errors@1.5.0 (setprototypeof@1.0.1, inherits@2.0.1, statuses@1.3.0)
+├── iconv-lite@0.4.13
+└── type-is@1.6.13 (media-typer@0.3.0, mime-types@2.1.11)
+
+express@4.13.4 node_modules\express
+├── escape-html@1.0.3
+├── array-flatten@1.1.1
+├── utils-merge@1.0.0
+├── cookie-signature@1.0.6
+├── merge-descriptors@1.0.1
+├── content-type@1.0.2
+├── methods@1.1.2
+├── parseurl@1.3.1
+├── range-parser@1.0.3
+├── cookie@0.1.5
+├── content-disposition@0.5.1
+├── etag@1.7.0
+├── fresh@0.3.0
+├── vary@1.0.1
+├── path-to-regexp@0.1.7
+├── depd@1.1.0
+├── qs@4.0.0
+├── on-finished@2.3.0 (ee-first@1.1.1)
+├── finalhandler@0.4.1 (unpipe@1.0.0)
+├── proxy-addr@1.0.10 (forwarded@0.1.0, ipaddr.js@1.0.5)
+├── send@0.13.1 (destroy@1.0.4, statuses@1.2.1, ms@0.7.1, mime@1.3.4, http-error
+s@1.3.1)
+├── accepts@1.2.13 (negotiator@0.5.3, mime-types@2.1.11)
+├── type-is@1.6.13 (media-typer@0.3.0, mime-types@2.1.11)
+└── serve-static@1.10.3 (send@0.13.2)
+
+jade@1.11.0 node_modules\jade
+├── commander@2.6.0
+├── character-parser@1.2.1
+├── void-elements@2.0.1
+├── jstransformer@0.0.2 (is-promise@2.1.0, promise@6.1.0)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── constantinople@3.0.2 (acorn@2.7.0)
+├── with@4.0.3 (acorn@1.2.2, acorn-globals@1.0.9)
+├── clean-css@3.4.18 (commander@2.8.1, source-map@0.4.4)
+├── transformers@2.1.0 (promise@2.0.0, css@1.0.8, uglify-js@2.2.5)
+└── uglify-js@2.7.0 (async@0.2.10, uglify-to-browserify@1.0.2, source-map@0.5.6,
+ yargs@3.10.0)
+
+C:\personalization> npm start
+
+> personalization@0.0.0 start C:\personalization
+> node ./bin/www
+
+GET / 200 1156.913 ms - 170
+GET /stylesheets/style.css 200 25.877 ms - 111
+GET /favicon.ico 404 54.309 ms - 995
+GET / 304 84.750 ms - -
+GET /stylesheets/style.css 304 2.668 ms - -
+GET / 304 52.055 ms - -
+GET /stylesheets/style.css 304 1.215 ms - -
+^CTerminate batch job (Y/N)? y
+
+C:\personalization>npm install -g
+^CTerminate batch job (Y/N)? y
+
+C:\personalization>npm install -g nodemon
+npm WARN optional dep failed, continuing fsevents@1.0.12
+C:\Users\DEV-DKS0399674\AppData\Roaming\npm\nodemon -> C:\Users\DEV-DKS0399674\A
+ppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js
+nodemon@1.9.2 C:\Users\DEV-DKS0399674\AppData\Roaming\npm\node_modules\nodemon
+├── ignore-by-default@1.0.1
+├── undefsafe@0.0.3
+├── es6-promise@3.2.1
+├── debug@2.2.0 (ms@0.7.1)
+├── minimatch@3.0.2 (brace-expansion@1.1.5)
+├── touch@1.0.0 (nopt@1.0.10)
+├── lodash.defaults@3.1.2 (lodash.restparam@3.6.1, lodash.assign@3.2.0)
+├── ps-tree@1.1.0 (event-stream@3.3.3)
+├── update-notifier@0.5.0 (is-npm@1.0.0, semver-diff@2.1.0, chalk@1.1.3, string-
+length@1.0.1, repeating@1.1.3, configstore@1.4.0, latest-version@1.0.1)
+└── chokidar@1.6.0 (path-is-absolute@1.0.0, inherits@2.0.1, glob-parent@2.0.0, a
+sync-each@1.0.0, is-binary-path@1.0.1, is-glob@2.0.1, readdirp@2.1.0, anymatch@1
+.3.0)
+
+C:\personalization>npm start
+
+> personalization@0.0.0 start C:\personalization
+> nodemon ./bin/www
+
+[nodemon] 1.9.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node ./bin/www`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET / 200 944.833 ms - 194
+GET /stylesheets/style.css 304 18.375 ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET / 200 937.892 ms - 277
+GET /stylesheets/style.css 304 5.624 ms - -
+{ tyler: 'tyler' }
+POST /vals - - ms - -
+{ tyler: 'tyler' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+{ tyler: 'tyler' }
+POST /vals - - ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+{ tyler: 'tyler' }
+POST /vals 200 76.920 ms - 7
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET / 304 1245.628 ms - -
+GET /stylesheets/style.css 304 7.207 ms - -
+{ tyler: 'hey' }
+POST /vals 200 87.714 ms - 7
+GET / 304 95.377 ms - -
+GET /stylesheets/style.css 304 2.034 ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET / 304 946.079 ms - -
+GET /stylesheets/style.css 304 5.621 ms - -
+{ tyler: 'heyy' }
+POST /vals 200 89.533 ms - 7
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET / 200 1017.531 ms - 296
+GET /stylesheets/style.css 304 5.538 ms - -
+{ test: '', test2: 'test' }
+POST /vals 200 89.895 ms - 7
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+express deprecated router.param(":id", fn): Use router.param("id", fn) instead r
+outes\index.js:10:8
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+express deprecated router.param(":id", fn): Use router.param("id", fn) instead r
+outes\index.js:10:8
+GET / 304 1225.255 ms - -
+GET /stylesheets/style.css 304 2.740 ms - -
+GET /vals/randomjumble 404 220.571 ms - 995
+GET /stylesheets/style.css 304 1.107 ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+express deprecated router.param(":id", fn): Use router.param("id", fn) instead r
+outes\index.js:10:8
+[nodemon] starting `node ./bin/www`
+express deprecated router.param(":id", fn): Use router.param("id", fn) instead r
+outes\index.js:10:8
+GET / 304 1110.230 ms - -
+GET /stylesheets/style.css 304 6.505 ms - -
+GET /val/random 404 83.057 ms - 995
+GET /stylesheets/style.css 304 1.827 ms - -
+GET /vals/random 404 70.598 ms - 995
+GET /stylesheets/style.css 304 1.183 ms - -
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+GET /vals/random 404 915.611 ms - 995
+GET /stylesheets/style.css 304 4.054 ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+random
+GET /vals/random - - ms - -
+random
+GET /vals/random - - ms - -
+random
+GET /vals/random - - ms - -
+random
+GET /vals/random - - ms - -
+random
+GET /vals/random - - ms - -
+GET / 304 862.142 ms - -
+GET /stylesheets/style.css 304 7.007 ms - -
+POST /vals 404 139.357 ms - 995
+GET /stylesheets/style.css 304 2.805 ms - -
+[nodemon] restarting due to changes...
+[nodemon] starting `node ./bin/www`
+sudo npm install learnyounode -g
+POST /vals 404 2663.942 ms - 995
+GET /stylesheets/style.css 304 5.313 ms - -
+POST /vals 404 87.271 ms - 995
+GET /stylesheets/style.css 304 3.183 ms - -
